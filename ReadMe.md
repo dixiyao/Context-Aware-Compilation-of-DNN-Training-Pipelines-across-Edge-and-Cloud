@@ -1,5 +1,5 @@
 # Overview
-This is the implementation of paper **Context-Aware Compilation of DNN Training Pipelines across Edge and Cloud**
+This is the official implementation of IMWUT/Ubicomp paper [**Context-Aware Compilation of DNN Training Pipelines across Edge and Cloud**](https://dl.acm.org/doi/abs/10.1145/3494981).
 ## Requirements
 python 3.x, pytorch, torchvision, pandas
 ## DataSets
@@ -78,3 +78,17 @@ Energy Consumption and Memory cost are critical for edge devices. So, we provide
 We also provide our profiling results under **profile**
 ### Requirements
 psutil, tkinter and matpolib (for visualization)
+
+## Citation
+```
+@article{yao2021context,
+  title={Context-Aware Compilation of DNN Training Pipelines across Edge and Cloud},
+  author={Yao, Dixi and Xiang, Liyao and Wang, Zifan and Xu, Jiayu and Li, Chao and Wang, Xinbing},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={5},
+  number={4},
+  pages={1--27},
+  year={2021},
+  publisher={ACM New York, NY, USA}
+}
+```
